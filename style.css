@@ -1,0 +1,89 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 5% 9% auto 5%;
+    gap: 5px;
+}
+
+header{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+nav{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+.länk{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+aside{
+    grid-row: 2/5;
+    grid-column: 1/2;
+}
+
+.div-logo{
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+#logo{
+    height:40px;
+    width: auto;
+}
+
+.div-logo ,header, main, nav, footer, aside{
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+#sidfot{
+    font-size: 15px;
+}
+
+.div-logo{
+    align-content: center;
+}
+
+
+#logo{
+    width: 69px;
+    display: block;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album{
+    height: auto;
+    width: 80%;
+}
